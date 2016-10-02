@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 2, 2016, 12:13:13 PM
+    Author     : Mazhar
+*/
+body {
+    font-family: 'robotoblack';
+}
+.bg-ash {
+    background: #BEBEBE;
+}
+.item img {
+    height: 250px;
+}
+.inner_text {
+    background: #FFFFFF;
+    padding: 10px;
+    border-bottom: 2px solid #39A38F;
+}
+.customNavigation{
+    text-align: center;
+}
+//use styles below to disable ugly selection
+.customNavigation a{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.m-t {
+    margin-top: -70px;
+}
+.m {
+    margin: 20px;
+}
+.inner_text ul li a i {
+    color: #ADADAD;
+    font-size: 16px;
+}
+small {
+    font-family: 'robotolight';
+}
+
+/*carsoul*/
+.owl-theme .owl-nav [class*=owl-]{
+    font-size: 24px;
+}
+.owl-prev, .owl-next {
+    position:absolute;
+    top:50%;
+    padding:5px;
+    margin:0;
+    z-index:100;
+    font-size:3rem;
+    cursor:pointer;
+    color:#555; 
+}
+
+.owl-prev {
+    left:-60px;
+}
+
+.owl-next {
+    right:-60px;
+}
+
+.owl-theme .owl-controls .owl-buttons div{
+    color: #555;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;/*IE7 life-saver */
+    font-size: 3rem;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    background: transparent;
+    filter: Alpha(Opacity=100);/*IE7 fix*/
+    opacity: 1;
+    margin-top:-32px;
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+    color:#2a6496;
+}
